@@ -26,6 +26,26 @@ header a:link, header a:visited {color: #ffffff;}
 header a:focus, header a:hover {color: #eeeeee;
 }
 
+ul li a{background: url(sprite.png)no-repeat;
+display: block;
+height: 42px;}
+
+.home a{background-position: -10px 0;
+}
+
+.home a:hover{background-position: -10px -47px;}
+
+.hir{text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+display: block;}
+
+.spring a{background-position: -131px 0; }
+.spring a:hover{background-position: -136px -47px;}
+
+.summer a{background-position: -131px 0;}
+.summer a:hover{background-position: -285px -47px;}
+
 #wrapper{background-color: #eeeeee;
 color: #006600;
 min-width: 960px;
